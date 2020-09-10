@@ -3,8 +3,7 @@
 require("conex-db.php");
 
 $nomcli = $_POST['busca'];
-// $encli = $_POST['']
-// echo "<table width='100%'>";
+
 echo "<tr width='100%'><b>";
 echo "   <td width='30%'>Nome</td>";
 echo "   <td width='25%'>Cidade</td>";
@@ -32,6 +31,5 @@ if ($nomcli != ''){
     }
 }
     echo "</table>";
-
 
 ?>
