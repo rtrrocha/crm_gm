@@ -5,7 +5,7 @@ Para que o sistema funcione corretamente, faz-se necessário que tenha os recurs
 <ol>
 <li>Faça o download do projeto .zip aqui do GitHub;</li>
 <li>Salve e descompacte-o no diretorio padrão utilizado para interpretação do PHP;</li>
-<li>No diretório raiz crm_gm contém um arquivo chamado Clientes.sql, esse script contém as informações para criação da tabela de Clientes e também para populá-la com algumas informações;</li>
+<li>No diretório raiz crm_gm_master contém um arquivo chamado Clientes.sql, esse script contém as informações para criação da tabela de Clientes e também para populá-la com algumas informações;</li>
 <li>Em seu banco de dados Mysql, selecione a base de dados onde deseja que a tabela Clientes seja criada e que as infomrações sejam lançadas;</li>
 <li>Após a criação da tabela, acesse o arquivo chamado conex-db.php para ajustar as informações de acesso a base de dados;</li>
 <li>No próprio arquivo existe alguns comentários referenciando as variáveis e explicado quais informações cada uma delas deve ter;</li>
