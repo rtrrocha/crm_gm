@@ -1,5 +1,3 @@
-#crm_gm
-
 <p><b>Cadastro Simples de Clientes</b></p>
 <p>Este projeto tem por objetivo o cadastro de clientes para uma consulta posterior.
 Para que o sistema funcione corretamente, faz-se necessário que tenha os recursos para interpretação de códigos em PHP e banco de dados Mysql em funcionamento.</p>
