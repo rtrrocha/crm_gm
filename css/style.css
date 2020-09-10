@@ -10,16 +10,6 @@ body{
     width: 100%;
 }
 
-.formulario {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
-    flex-direction: column;
-
-}
-
 .menu {
     display: flex;
     justify-content: space-around;
@@ -28,6 +18,32 @@ body{
     font-weight: bold;
     flex-direction: column;
     padding: 20px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    flex-direction: column;
+
+}
+
+.label {
+    padding-bottom: 2px;
+    padding-top: 10px;
+}
+
+#loccli {
+    margin-top: 5px;
+}
+
+
+#listaclientes {
+    display: inline-table;
+    /* border-style: ridge; */
+    width: 90%;
+    padding: 15px;
 }
 
 .botao {
@@ -47,11 +63,11 @@ a {
     font-weight: normal;
     border-width: 2px;
     border-style: ridge;
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 20px;
     padding: 5px;
 }
 
-#listaclientes {
-    font-weight: normal;
+table {
+    font-style: normal;
 }
